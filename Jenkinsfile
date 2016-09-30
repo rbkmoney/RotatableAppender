@@ -1,5 +1,5 @@
 #!groovy
-build('RotatableAppender', 'docker-host') {
+build('rotatable_appender', 'docker-host') {
     checkoutRepo()
     loadBuildUtils()
 
